@@ -31,7 +31,7 @@ agent = ROSAgent()
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--env-name', default=None)
+parser.add_argument('--env-name', default='Duckietown-udem1-v0')
 parser.add_argument('--map-name', default='udem1')
 parser.add_argument('--distortion', default=False, action='store_true')
 parser.add_argument('--draw-curve', action='store_true', help='draw the lane following curve')
